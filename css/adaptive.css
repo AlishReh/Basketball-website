@@ -1,0 +1,126 @@
+@media only screen and (max-width: 2560px){
+
+}
+
+@media only screen and (max-width: 1440px){
+
+}
+/*Large Widescreen*/
+@media only screen and (max-width: 1300px){
+  .top{
+    width: 1400px;
+  }
+  .headerinner{
+    font-size: 100px;
+  }
+  .rim-image-h{
+    font-size: 180px;
+  }
+  .definition-basket{
+    font-size: 40px;
+    margin: 0;
+  }
+  .main{
+    margin-left: 145px;
+  }
+  .main-element{
+    font-size: 80px;
+  }
+  .contacts-info{
+    width: 1400px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+  }
+  .footer{
+    width: 1390px;
+  }
+  .myname{
+    font-size: 60px;
+  }
+  .contacts-adress,.contacts-email,.contacts-number{
+    font-size: 30px;
+  }
+  .social-icons li{
+    margin: 10px;
+    display: flex;
+    padding-right: 100px;
+  }
+  .social-icons li img {
+    width: 60px;
+    height: 60px;
+  }
+  .footerinner{
+    font-size: 60px;
+  }
+  .form{
+    font-size: 60px;
+  }
+  .submit-message{
+    font-size: 60px;
+  }
+  .map{
+    padding: 70px;
+    padding-left: 75px;
+  }
+  
+  .wallpapers-div{
+    height:4500px;
+  }
+  .wallpapers-diplay{
+    width: 700px;
+  }
+  .wallpapers-diplay img{
+    width: 1000px;
+    margin-left: 200px;
+  }
+  .dropdown{
+    margin: 0;
+    margin-left: 1100px;
+    margin-bottom: 100px;
+    margin-top: -80px;
+  }
+  .dropbtn{
+      width: 200px;
+      height: 100px;
+      font-size: 40px;
+  }
+  .dropdown-content{
+    font-size: 60px;
+  }
+  .download-all{
+    font-size: 60px;
+  }
+  .file-input{
+      width:1000px;
+      height:100px;
+      font-size:60px;
+  }
+  .wallpapers-diplay-client{
+      margin-left:185px;
+  }
+  .wallpapers-diplay-client a{
+    margin: 10px auto;
+    width:200px;
+  }
+  .wallpapers-diplay-client img{
+    width:1000px;
+    
+    
+  }
+}
+/*Medium Desktop*/
+@media only screen and (max-width: 992px){
+
+}
+/*Small Tablets*/
+@media only screen and (max-width: 768px){
+
+}
+/*Extra small Phones*/
+@media only screen and (max-width: 480px){
+
+}
+/*Custom Iphone*/
+@media only screen and (max-width: 320px){
+
+}

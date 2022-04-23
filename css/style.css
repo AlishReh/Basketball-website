@@ -1,0 +1,387 @@
+body{
+  background-color: #28262c;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/*header */
+.headerinner{
+  color: #e4d4bc;
+  text-decoration: none;
+  margin: 1px;
+  font-size: 35px;
+}
+.headerinner:hover{
+  text-decoration: underline;
+}
+
+/*top*/
+.top{
+  width: 100%;
+  height: 100vh;
+  background: url("../images/1.jpg") no-repeat center center;
+  position: static;
+  background-size: cover;
+
+}
+.image{
+  width: 100%;
+  height: 75vh;
+
+}
+.rim-image{
+  padding: 10px;
+  padding-left: 60px;
+}
+.rim-image-h{
+  color: #fedf74;
+  font-size: 55px;
+
+}
+.search{
+  width: 800px;
+  height: 25vh;
+  padding-left: 60px;
+}
+.definition-basket{
+  font-style: italic;
+  color: #fedf74;
+  font-size: 15px;
+}
+
+/*main*/
+.main{
+  text-align: center;
+  padding: 20px;
+  margin-left: 175px;
+  margin-right: 175px;
+}
+.main-element{
+  height: 200px;
+  width: 1000px;
+  padding: 20px;
+  text-align: left;
+  margin: 20px;
+  font-size: 32px;
+}
+.main-element-item{
+  text-decoration: none;
+  color: white;
+}
+.main-element-item:hover{
+  color: gray;
+  transition: all 0.5s ease;
+}
+.Sneakers{
+  background: url("../images/wp3251521.jpg?t=<?php echo time();?>") no-repeat center center;
+}
+.Jerseys{
+  background: url("../images/jersey.jpg?t=<?php echo time();?>") no-repeat center center;
+}
+.NBA{
+  background: url("../images/NBA.png?t=<?php echo time();?>") no-repeat center center;
+}
+.Wallpapers{
+  background: url("../images/2.jpg?t=<?php echo time();?>") no-repeat center center;
+}
+
+
+
+
+/*Footer*/
+.one{
+  background-color: #e4d4bc;
+}
+.footer{
+
+}
+.contacts{
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  width: 100%;
+}
+.contacts-info{
+  margin-bottom: 20px;
+}
+.myname{
+  font-size: 29px;
+}
+.contacts-email{
+  text-decoration: none;
+  color: black;
+}
+.contacts-email:hover{
+  color: white;
+  transition: all 0.3s ease;
+
+}
+ul.hr li {
+    display: inline;
+    margin-right: 5px;
+    padding: 3px;
+}
+
+.social-icons {
+  text-align: center;
+  }
+.social-icons li {
+  display:inline-block;
+  list-style-type:none;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  }
+.social-icons li a {
+  border-bottom: none;
+  }
+.social-icons li img {
+  width:25px;
+  height:25px;
+  margin-top: 40px;
+  margin-right: 20px;
+}
+
+
+
+/*MESSAGE*/
+.message{
+  padding-bottom: 170px;
+  padding-left: 135px;
+  display: flex;
+  padding-top: 0;
+}
+.footerinner{
+  color: #e4d4bc;
+  text-decoration: none;
+  margin: 20px;
+  font-size: 35px;
+}
+form{
+  display: flex;
+  width: 500px;
+  flex-direction: column;
+  padding-bottom: 10px;
+  color: #e4d4bc;
+}
+.submit-message{
+  margin-top: 20px;
+  padding: 15px;
+  background: white;
+  border: unset;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.submit-message:hover{
+  background: #e4d4bc;
+  transition: all 0.3s ease;
+}
+.form{
+  padding: 20px;
+  font-size: 25px;
+}
+
+.input-message{
+  height:50px;
+  border-color: white;
+  background: transparent;
+  color: white;
+}
+.last{
+  margin-bottom: 40px;
+  padding-bottom: 50px;
+}
+
+/*MAP*/
+.map{
+  padding-top: 125px;
+  padding-left: 75px;
+}
+
+
+
+/*111PAGE*/
+.header-NBA{
+  color: #e4d4bc;
+  text-decoration: none;
+  margin: 20px;
+  font-size: 50px;
+}
+/*slider*/
+.slider-div{
+  max-width: 1170px;
+  margin: auto;
+
+}
+.slider{
+  width: 1000px;
+  height: 600px;
+  border: 2px solid white;
+  margin: 40px auto;
+  overflow: hidden;
+}
+.slider-line{
+  height: 600px;
+  width: 3000px;
+  display: flex;
+  position: relative;
+  left: 0;
+  transition: all ease 1s;
+}
+
+.slider-line img{
+  height: 600px;
+}
+.slider-next{
+  width: 95px;
+  height: 100px;
+  border: unset;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 50px;
+  color: white;
+}
+.slider-next:hover{
+  color: black;
+  transition: all 0.3s ease;
+}
+.slider-prev{
+  width: 95px;
+  height: 100px;
+  border: unset;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 50px;
+  color: white;
+}
+.slider-prev:hover{
+  color: black;
+  transition: all 0.3s ease;
+}
+.slider-button{
+  width: 1000px;
+  height: 300px;
+  text-align: center;
+  margin: 40px;
+  margin-left: 85px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: -375px;
+  position: absolute;
+}
+/*insta-NBA*/
+.insta-con{
+
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+}
+.instagram-one{
+  width: 500px;
+}
+.instagram-two{
+  width: 500px;
+}
+
+
+
+
+/*WALLPAPERS*/
+.wallpapers-div{
+  width: 1400px;
+  height: 500px;
+  margin: 10px auto;
+}
+.wallpapers-diplay{
+  margin-bottom: 30px;
+}
+.wallpapers-diplay img{
+  width: 400px;
+  margin-left: 8px;
+  border: 4px solid;
+  border-color: #fedf74;
+  border-radius: 10px
+}
+.dropbtn {
+  background-color: #e4d4bc;
+  color: #28262c;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  border-bottom-left-radius: 0;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-left: -50px;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #fedf74;
+  transition: all 0.5s ease;
+
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {background-color: #fedf74;
+transition: all 1s ease;
+}
+
+
+.download-all{
+  padding: 30px;
+  margin: 50px;
+}
+.download-text{
+  color:  #e4d4bc;
+  font-style: italic;
+}
+.download-url{
+  text-decoration: none;
+  color: #fedf74;
+}
+.download-url:hover{
+
+  color: #e4d4bc;
+  transition: all 0.6s ease;
+}
+
+.wallpapers-diplay-client{
+  margin:0 auto;
+  margin-bottom: 30px;
+  
+}
+.aaa:hover{
+    filter:brightness(50%);
+}
+.wallpapers-diplay-client img{
+  width: 400px;
+}
+.client-a{
+    margin:0;
+    
+}
